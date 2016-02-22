@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guard Tour</string>
+    <string name="title_activity_incident">Incident</string>
+    <string name="some_text">Liste de probable incident</string>
+    <string name="action_settings">Nothing</string>
+    <string name="title_activity_thanks">Thanks</string>
+    <string name="thanks">Merci pour votre participation!</string>
+    <string name="redezvous">Rendez-vous dans : </string>
+    <string name="seconde">00:00:00</string>
+
+</resources>

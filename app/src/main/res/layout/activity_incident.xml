@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/some_text"
+        android:textSize="20sp" /><!--
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />-->
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_above="@+id/listReport"
+        android:layout_below="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/listReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/findSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reporter" />
+
+        <Button
+            android:id="@+id/nothingToReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rien a rapporter" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
